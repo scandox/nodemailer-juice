@@ -1,0 +1,30 @@
+{
+  "name": "nodemailer-juice",
+  "version": "1.0.0",
+  "description": "A nodemailer plugin for inlining CSS using Juice",
+  "main": "src/nodemailer-juice.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scandox/nodemailer-juice.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "inlining",
+    "css"
+  ],
+  "author": "scandox@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scandox/nodemailer-juice/issues"
+  },
+  "homepage": "https://github.com/scandox/nodemailer-juice#readme",
+  "dependencies": {
+    "juice": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0"
+  }
+}
