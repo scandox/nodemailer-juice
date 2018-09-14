@@ -32,7 +32,7 @@ Where
 
 ```javascript
 var nodemailer = require('nodemailer');
-var inlineCss = require('nodemailer-juice');
+var inLineCss = require('nodemailer-juice');
 var transporter = nodemailer.createTransport();
 transporter.use('compile', inLineCss());
 transporter.sendMail({
